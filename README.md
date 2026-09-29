@@ -8,9 +8,9 @@ Public distribution space for the playable web versions of **RinoSaur**, develop
 |---|---|---|
 | 2D / 2.5D | Current playable web reference | [Open the 2D version](https://rhynocerus.github.io/rinosaur-web/2d/) |
 | 3D prototype | In active development | [Open the 3D status page](https://rhynocerus.github.io/rinosaur-web/3d/) |
-| WebXR | Planned after the Web 3D slice | Coming later |
+| WebXR | Experimental playable export | [Open the WebXR prototype](https://rhynocerus.github.io/rinosaur-web/webxr/) |
 
-The 2D status page links to the current playable build while the public distribution is being prepared. The 3D page will become playable when the prototype passes its visual, interaction and performance checks.
+The 2D page is the stable playable reference. The WebXR page is an experimental export of the 3D branch and requires a compatible HTTPS browser or headset for immersive mode.
 
 ## Source
 

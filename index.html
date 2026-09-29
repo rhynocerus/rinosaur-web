@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="RinoSaur web builds by RHYNUS Interactive Works.">
+  <title>RinoSaur · RHYNUS Interactive Works</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --night: #071823;
+      --panel: #102b38;
+      --panel-2: #153847;
+      --cyan: #20d8c6;
+      --gold: #ffb24d;
+      --text: #eef8f3;
+      --muted: #a8c9c6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 75% 8%, #e99466 0, transparent 22rem),
+        linear-gradient(145deg, #0c3851 0%, var(--night) 58%, #07131d 100%);
+    }
+    main { width: min(1060px, 92vw); margin: 0 auto; padding: 58px 0; }
+    header { max-width: 760px; }
+    .eyebrow { color: var(--cyan); letter-spacing: .16em; text-transform: uppercase; font-size: .78rem; font-weight: 700; }
+    h1 { font-size: clamp(2.8rem, 8vw, 6.4rem); line-height: .9; margin: 16px 0 22px; }
+    h1 span { color: var(--gold); }
+    .intro { color: var(--muted); font-size: 1.15rem; line-height: 1.6; max-width: 680px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin-top: 46px; }
+    .card {
+      padding: 25px; border: 1px solid #2c6672; border-radius: 18px;
+      background: linear-gradient(160deg, #174452dd, #0d2430ee);
+      box-shadow: 0 18px 48px #0005;
+    }
+    .card h2 { margin: 0 0 9px; }
+    .card p { color: var(--muted); line-height: 1.5; min-height: 72px; }
+    a.button {
+      display: inline-block; padding: 11px 16px; border-radius: 999px;
+      color: #06151b; background: var(--cyan); text-decoration: none; font-weight: 800;
+    }
+    a.button.gold { background: var(--gold); }
+    a.text { color: var(--cyan); }
+    footer { margin-top: 50px; color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">RHYNUS Interactive Works</div>
+      <h1>Rino<span>Saur</span></h1>
+      <p class="intro">
+        A tactical board game evolving from a playable 2.5D foundation
+        toward a real 3D world of materials, floating islands and atmospheric exploration.
+      </p>
+    </header>
+    <section class="grid" aria-label="RinoSaur versions">
+      <article class="card">
+        <h2>2D / 2.5D</h2>
+        <p>The current playable reference version. Select a Rino, move across the board and test the tactical rules.</p>
+        <a class="button" href="2d/">Open 2D version</a>
+      </article>
+      <article class="card">
+        <h2>3D prototype</h2>
+        <p>A real 7×7 board with 3D Rinos, stone materials, camera orbit, zoom and a developing sky environment.</p>
+        <a class="button gold" href="3d/">View 3D status</a>
+      </article>
+      <article class="card">
+        <h2>WebXR</h2>
+        <p>The VR path will begin after the desktop/Web 3D slice is stable and tested.</p>
+        <a class="text" href="https://github.com/rhynocerus/rinosaur">Follow development →</a>
+      </article>
+    </section>
+    <footer>
+      <a class="text" href="https://github.com/rhynocerus/rinosaur-web">GitHub repository</a>
+      · Created by RHYNUS Interactive Works
+    </footer>
+  </main>
+</body>
+</html>

@@ -8,9 +8,9 @@ Public distribution space for the playable web versions of **RinoSaur**, develop
 |---|---|---|
 | 2D / 2.5D | Current playable web reference | [Open the 2D version](https://rhynocerus.github.io/rinosaur-web/2d/) |
 | 3D prototype | In active development | [Open the 3D status page](https://rhynocerus.github.io/rinosaur-web/3d/) |
-| WebXR | Experimental build files retained; public Pages route currently returns 404 | [Browse the stored build files](https://github.com/rhynocerus/rinosaur-web/tree/main/webxr) |
+| WebXR | Experimental playable export; requires WebGL2 | [Open the WebXR prototype](https://rhynocerus.github.io/rinosaur-web/webxr/) |
 
-The 2D page is the current playable reference. The WebXR files remain in this repository for review, but the public Pages route is unavailable, so this is not currently offered as a playable demo.
+The 2D page is the current playable reference. The WebXR route now loads its experimental build. It requires a browser with WebGL2; immersive mode also requires a compatible HTTPS browser or headset. Gameplay was not validated in every browser or device.
 
 ## Source
 
